@@ -5,6 +5,7 @@ const Login = () => {
     <div className='mainAuthLog'>
         <div className="mainImg__logo">
            <h1>aaa</h1>
+           <a href="">aa</a>
         </div>
     </div>
   )
