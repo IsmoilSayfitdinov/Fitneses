@@ -6,7 +6,7 @@ import LoginEmail from "./routes/loginEmail/LoginEmail"
 function App() {
 
   return (
-    <div>
+    <div className='container'>
       <Routes>
         <Route path='/' element={<Login/>}/>
         <Route path='/loginemail' element={<LoginEmail/>}/>
