@@ -4,7 +4,10 @@ const Login = () => {
   return (
     <div className='mainAuthLog'>
         <div className="mainImg__logo">
-          <h1>bbb</h1>
+<        davron-dev
+          <h1>bbb</h1
+           <h1>aaa</h1>
+       main
         </div>
     </div>
   )
