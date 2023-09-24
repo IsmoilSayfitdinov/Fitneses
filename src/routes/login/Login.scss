@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+	max-width: 100%;
+	.login-auth {
+		display: flex;
+		height: 690px;
+		.login-auth__section1 {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: #e2f0ff;
+			position: relative;
+			height: 800px;
+			img {
+				height: 670px;
+			}
+			strong {
+				font-size: 20px;
+				font-family: sans-serif;
+				font-weight: 600;
+				position: absolute;
+				top: 550px;
+			}
+			.aboutLogin {
+				font-size: 14px;
+				font-family: 'Popins', sans-serif;
+			}
+			.dumoloq {
+				display: flex;
+				gap: 10px;
+				margin-top: 47px;
+				.dumaloq {
+					width: 10px;
+					height: 10px;
+					border-radius: 50%;
+					background-color: #4d88c3;
+				}
+				.dumaloq1 {
+					width: 10px;
+					height: 10px;
+					border-radius: 50%;
+					background-color: #c1d3e6;
+				}
+			}
+		}
+		.login-email__section2 {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 50%;
+
+			.login-email__form {
+				margin-top: 45px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				.eyes__inputs,
+				.info__inputs {
+					position: relative;
+					padding: 12px 0 9px 22px;
+					max-width: 440px;
+					width: 100%;
+					border: none;
+					border-radius: 4px;
+					background-color: #eaeaea;
+					outline: none;
+					margin-bottom: 48px;
+				}
+
+				button {
+					width: 440px;
+					background-color: #4c70ff;
+					padding: 9px 0;
+					border: none;
+					border-radius: 8px;
+					color: #fff;
+					font-family: 'Popins', sans-serif;
+					font-weight: 500;
+					font-size: 20px;
+					transition: 0.3s;
+				}
+				button:active {
+					transform: scale(1.1);
+					transition: 0.5s;
+				}
+			}
+		}
+	}
+}
+
+.text__inp {
+	margin-left: -380px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.welcome__text-LoginAuth {
+	font-family: Poppins;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-left: 135px;
+}
+
+.hand_authLogin {
+	font-size: 35px;
+	margin-left: 135px;
+	margin-bottom: 13px;
+}
+
+.eyes__inp {
+    margin-left: 10px;
+	position: absolute;
+	bottom: 332px;
+	right: 180px;
+	cursor: pointer;
+}
+
+.info__inp {
+	position: absolute;
+	bottom: 500px;
+	right: 180px;
+	cursor: pointer;
+}
+
+.possword__forgot {
+	color: var(--Baby-Blue, #66bce8);
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-top: -40px;
+	margin-left: -309px;
+	margin-bottom: 47px;
+    cursor: pointer;
+}
+
+.btn__text {
+    margin-top: 22px;
+	color: var(--text-main, #292731);
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+    
+	span {
+		color: #66bce8;
+		font-family: Poppins;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+        cursor: pointer;
+	}
+}
