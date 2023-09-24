@@ -1,9 +1,9 @@
 import React from 'react'
 
-const log = () => {
+const LoginEmail = () => {
   return (
-    <div>log</div>
+    <div>LoginEmail</div>
   )
 }
 
-export default log
+export default LoginEmail
