@@ -5,6 +5,7 @@ import { PiHandWavingFill } from 'react-icons/pi'
 import { BsFillEyeSlashFill, BsInfoCircle } from 'react-icons/bs'
 
 const Login = () => {
+
 	const [isTExt, setText] = useState('password')
 	return (
 		<div className='container'>
@@ -53,6 +54,16 @@ const Login = () => {
 			</div>
 		</div>
 	)
+
+  return (
+    <div className='mainAuthLog'>
+        <div className="mainImg__logo">
+          <h1>bbb</h1>
+           <h1>aaa</h1>
+        </div>
+    </div>
+  )
+
 }
 
 export default Login
