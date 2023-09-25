@@ -10,8 +10,6 @@ import {TfiStatsUp} from "react-icons/tfi"
 
 const Saidbar = () => {
 
-
-	
 	return (
 		<div className='main__saidbar'>
 			<div className='blokc__saidbar-img'>
