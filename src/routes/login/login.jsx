@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import './Login.scss'
 import loginImg from '../../assets/loginImg.svg'
 import { PiHandWavingFill } from 'react-icons/pi'
 import { BsFillEyeSlashFill, BsInfoCircle } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
 
@@ -13,7 +14,7 @@ const Login = () => {
 				<div className='login-auth__section1'>
 					<img src={loginImg} alt='' />
 					<strong>Fitnes</strong>
-					<p className='aboutLogin'>qisqacha ta'rif</p>
+					<p className='aboutLogin'>qisqacha tarif</p>
 					<div className='dumoloq'>
 						<div className='dumaloq'></div>
 						<div className='dumaloq1'></div>
@@ -45,9 +46,11 @@ const Login = () => {
 							}
 							className='eyes__inp'
 						/>
-						<button>Log In</button>
+						<Link to="/loginemail">
+							<button>Log In</button>
+						</Link>
 						<p className='btn__text'>
-							Don't have an account?<span> Sign Up</span>
+							Dont have an account?<span> Sign Up</span>
 						</p>
 					</form>
 				</div>
@@ -55,15 +58,7 @@ const Login = () => {
 		</div>
 	)
 
-  return (
-    <div className='mainAuthLog'>
-        <div className="mainImg__logo">
-          <h1>bbb</h1>
-           <h1>aaa</h1>
-           <a href="">aa</a>
-        </div>
-    </div>
-  )
+
 
 }
 
