@@ -1,4 +1,3 @@
-import React from 'react'
 import Saidbar from '../../components/saidbar/Saidbar'
 
 const Admin = () => {
