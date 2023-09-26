@@ -16,7 +16,7 @@ const Admin = () => {
 		<div className='container'>
 			<div className='main__admin'>
 				<div className='saidbar__admin'>
-					<Saidbar />
+				<Saidbar/>
 				</div>
 				<div className='admin'>
 					<div className='admin__tetx-serch'>
