@@ -41,12 +41,14 @@ const Saidbar = () => {
 						</p>
 					</div>
 				</Link>
-				<div className='page'>
-					<p className='home__text'>
-						<RiCalendarLine style={{ width: '40px', height: '40px' }} />{' '}
-						<p style={{ paddingLeft: '24px' }}>Jihozlar</p>
-					</p>
-				</div>
+				<Link to="/jihozlar">
+					<div className='page'>
+						<p className='home__text'>
+							<RiCalendarLine style={{ width: '40px', height: '40px' }} />{' '}
+							<p style={{ paddingLeft: '24px' }}>Jihozlar</p>
+						</p>
+					</div>
+				</Link>
 				<div className='page'>
 					<p className='home__text'>
 						<FaShopify style={{ width: '40px', height: '40px' }} />{' '}
