@@ -3,8 +3,10 @@ import { Route,Routes } from 'react-router-dom'
 import Login from "./routes/login/Login"
 import LoginEmail from "./routes/loginEmail/LoginEmail"
 import Admin from './routes/admin/Admin'
-import Ustoz from './routes/ustozlar/Ustoz'
-import AddneUs from './routes/addnew/AddneUs'
+import Teachers from './routes/teachers/Teachers'
+import Mijozlar from './routes/mijozlar/Mijozlar'
+import Jihozlar from './routes/jihozlar/Jihozlar'
+import Addjihozlar from './routes/addJihozlar/Addjihozlar'
 
 function App() {
 
@@ -14,8 +16,10 @@ function App() {
 				<Route path='/' element={<Login />} />
 				<Route path='/loginemail' element={<LoginEmail />} />
 				<Route path='/admin' element={<Admin />} />
-				<Route path='/ustozlar' element={<Ustoz />} />
-				<Route path='/addNew' element={<AddneUs/>}/>
+				<Route path='/teachers' element={<Teachers />} />
+				<Route path='/mijozlar' element={<Mijozlar />} />
+				<Route path='/addJihozlar' element={<Addjihozlar />} />
+				<Route path='/jihozlar' element={<Jihozlar />} />
 			</Routes>
 		</div>
 	)
