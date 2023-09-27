@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom'
 const Saidbar = () => {
 
 	return (
+		<div className='saidbaer'>
 		<div className='main__saidbar'>
 			<div className='blokc__saidbar-img'>
 				<img style={{marginLeft:"26px"}} src={saidlogo} alt='' />
@@ -41,11 +42,11 @@ const Saidbar = () => {
 						</p>
 					</div>
 				</Link>
-				<Link to="/jihozlar">
+				<Link style={{textDecoration:"none"}} to="/jihozlar">
 					<div className='page'>
 						<p className='home__text'>
 							<RiCalendarLine style={{ width: '40px', height: '40px' }} />{' '}
-							<p style={{ paddingLeft: '24px' }}>Jihozlar</p>
+							<p style={{ paddingLeft: '24px'  }}>Jihozlar</p>
 						</p>
 					</div>
 				</Link>
@@ -69,6 +70,8 @@ const Saidbar = () => {
 				</div>
 			</div>
 		</div>
+     </div>	 
+
 	)
 }
 

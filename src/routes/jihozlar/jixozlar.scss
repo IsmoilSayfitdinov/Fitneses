@@ -1,0 +1,145 @@
+.main__jihozlar {
+	display: flex;
+	max-width: 1980px;
+	width: 100%;
+    margin: auto;
+
+	.main__jihozlar2 {
+        padding-left: 48px;
+        padding-right: 19px;
+        max-width: 2980px;
+		width: 100%;
+		height: 1517px;
+		background: var(--color-background, #d8edf7);
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+	}
+  .jihozlar{
+    width: 100%;
+  }
+	
+}
+
+.text__jih{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.jihozlar__tex {
+	margin-left: 48px;
+	margin-top: 50px;
+	max-width: 350px;
+	.textjihozlar {
+		h2 {
+			color: var(--color-text, #303972);
+			font-family: Poppins;
+			font-size: 36px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+	}
+	.jihozlar__search {
+		margin-top: 43px;
+		width: 100%;
+		display: inline-flex;
+		height: 60px;
+		padding: 2px 32px 2px 0px;
+		align-items: center;
+		flex-shrink: 0;
+		border-radius: 40px;
+		background: var(--color-white, #fff);
+		.jihozlarForm {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding-left: 32px;
+			input {
+				border: none;
+				outline: none;
+				fill: var(--color-gray-3, #a098ae);
+				font-size: 17px;
+				padding-left: 16px;
+			}
+			.search__form {
+				color: #303972;
+				font-size: 32px;
+			}
+		}
+	}
+}
+
+.jihozlar__logo {
+	display: flex;
+	margin-top: 50px;
+	margin-right: 223px;
+}
+
+.icons__jihozlar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px;
+	background: var(--color-white, #fff);
+	box-shadow: 0px 20px 50px 0px rgba(191, 21, 108, 0.05);
+	width: 60px;
+	height: 60px;
+	flex-shrink: 0;
+	font-size: 22px;
+	color: #a098ae;
+	margin-left: 20px;
+}
+
+.text__adminName {
+	margin-left: 24px;
+}
+
+.btnAdd_jihozlar {
+	margin-left: 120px;
+	margin-top: 43px;
+	cursor: pointer;
+	button {
+		cursor: pointer;
+		border-radius: 40px;
+		background: var(--color-purple, #4d44b5);
+		display: flex;
+		width: 207px;
+		height: 60px;
+		padding: 16px 43px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		flex-shrink: 0;
+		box-shadow: 0px 20px 50px 0px rgba(191, 21, 108, 0.05);
+		border: none;
+		outline: none;
+		font-size: 28px;
+		color: #fff;
+	}
+}
+
+.Jihozlar__card {
+	border-radius: 20px;
+	background: var(--color-white, #fff);
+	width: 1506px;
+	height: 1280px;
+	flex-shrink: 0;
+}
+
+.main__card {
+    margin-top: 30px;
+	max-width: 1506px;
+    width: 100%;
+	max-height: 1280px;
+    height: 100%;
+	flex-shrink: 0;
+	.card {
+        width: 100%;
+        height: 100%;
+		background: var(--color-white, #ffffff);
+		border-radius: 20px;
+	}
+}

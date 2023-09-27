@@ -1,0 +1,239 @@
+.main__addJihozlar {
+	display: flex;
+	max-width: 1938px;
+	width: 100%;
+	height: 1517px;
+	background: var(--color-background, #d8edf7);
+	margin: auto;
+}
+
+.main-text__wraper {
+	max-width: 1900px;
+	width: 100%;
+	padding-right: 43px;
+	padding-left: 23px;
+}
+
+.addJihozlar__text {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1938px;
+	width: 100%;
+	margin-top: 50px;
+	.Texts {
+		h2 {
+			color: var(--color-text, #303972);
+			font-family: Poppins;
+			font-size: 36px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+	}
+}
+
+.logoTeaxt {
+	display: flex;
+}
+
+.logoIconsText {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	.logo {
+		margin-right: 20px;
+		display: flex;
+		justify-content: center;
+		cursor: pointer;
+		align-items: center;
+		width: 60px;
+		height: 60px;
+		flex-shrink: 0;
+		border-radius: 40px;
+		background: var(--color-white, #fff);
+		box-shadow: 0px 20px 50px 0px rgba(191, 21, 108, 0.05);
+		font-size: 28px;
+		color: #a098ae;
+	}
+}
+
+.AdminName {
+	margin-right: 124px;
+	p {
+		color: var(--color-text, #303972);
+		font-family: Poppins;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+}
+
+.AddminInp {
+	max-width: 1527px;
+	height: 1077px;
+	flex-shrink: 0;
+	margin-top: 38px;
+}
+
+.inpTitleAdmin {
+	width: 100%;
+	border-radius: 20px 20px 0px 0px;
+	height: 87px;
+	background: var(--color-purple, #4d44b5);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 69px;
+	padding-top: 25px;
+	h2 {
+		color: var(--color-white, #fff);
+		font-family: Poppins;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+}
+
+.inpAdmin {
+	max-width: 1527px;
+	width: 100%;
+	background: var(--color-white, #fff);
+	height: 1077px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.main__inp {
+	padding-top: 54px;
+	max-width: 1517px;
+	width: 100%;
+	padding-left: 69px;
+}
+
+.inp__1--admin {
+	display: flex;
+	padding-right: 24px;
+	width: 100%;
+
+	.teaxtarea {
+		outline: none;
+		padding: 15px;
+		color: var(--color-gray-3, #a098ae);
+		font-family: Poppins;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.inp1 {
+		max-width: 627px;
+		width: 100%;
+		margin-top: 78px;
+
+		p {
+			color: var(--color-text, #303972);
+			font-family: Poppins;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+			margin-bottom: 16px;
+		}
+		input {
+			padding: 14px;
+			outline: none;
+			max-width: 627px;
+			width: 100%;
+			height: 48px;
+			flex-shrink: 0;
+			border-radius: 5px;
+			border: 1px solid var(--color-gray-2, #c1bbeb);
+			background: var(--color-white, #fff);
+		}
+	}
+	.inp2 {
+		max-width: 627px;
+		width: 100%;
+		margin-left: 63px;
+		margin-top: 78px;
+		.lable {
+			margin-top: 60px;
+		}
+		#file {
+			display: none;
+			margin-top: 180px;
+		}
+
+		label {
+			cursor: pointer;
+			color: var(--color-gray-3, #a098ae);
+			text-align: center;
+			font-family: Poppins;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			width: 175px;
+			height: 175px;
+			border: 1px dashed var(--color-gray-2, #c1bbeb);
+			padding: 60px;
+			border-radius: 5px;
+		}
+		p {
+			color: var(--color-text, #303972);
+			font-family: Poppins;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+			padding-bottom: 16px;
+		}
+		input {
+			padding: 14px;
+			outline: none;
+			max-width: 627px;
+			width: 100%;
+			height: 48px;
+			flex-shrink: 0;
+			border-radius: 5px;
+			border: 1px solid var(--color-gray-2, #c1bbeb);
+			background: var(--color-white, #fff);
+		}
+	}
+}
+
+.btn__sumbit {
+	margin-top: -130px;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	padding-right: 56px;
+	gap: 0 74px;
+	button {
+        cursor: pointer;
+		display: inline-flex;
+		height: 60px;
+		padding: 10px 24px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		flex-shrink: 0;
+		border: none;
+		border-radius: 40px;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+    .add{
+        color: var(--color-white, #4D44B5);
+		font-family: Poppins;
+        border-radius: 40px;
+        border-radius: 40px;
+        border: 2px solid var(--color-purple, #4D44B5);
+    }
+}
